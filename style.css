@@ -1,0 +1,957 @@
+/* ------------ */
+/* common Css */
+/* --------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2% 2% 0% 2%;
+    font-family: 'Dosis', sans-serif;
+   
+}
+/* ************** */
+/* hamberger_menu */
+/* ************** */
+    .hamberger_menu{
+        background-color: aqua;
+        width:100%;
+        height: 60px;
+        display:none;
+    }
+    
+ 
+/* ******************* */
+/* landing-page style */
+/* ***************** */
+
+.landing_page{
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),url(./images/landing_Page_background.jpg);
+    background-size:cover;
+    background-attachment: scroll,fixed;
+    background-position: center;
+    height: 85vh;
+    min-width: 100%;
+    position:relative;
+}
+/* ------------- */
+/* nav bar style */
+/* ------------- */
+.dropdown-icon{
+    height: 10px;
+    width:10px;
+    margin-left:10px;
+}
+
+nav{
+    width:95%;
+    display: flex;
+    margin:0 auto;
+    position:absolute;
+    top:4%;
+    left:5%;
+    
+}
+/* -------------- */
+/* logo design */
+/* ----------- */
+
+.logo{
+    height: 110px;
+    width: 160px;
+    background-color:rgb(228,115,18);
+    position: relative;
+    cursor: pointer;
+}
+.logo img{
+    width:60%;
+    position:absolute;
+    top:40%;
+    left:20%;
+}
+/* ---------------- */
+/* logo design end */
+/* -------------- */
+
+/* ------------- */
+/* menu item  */
+/* ----------- */
+.nav_item{
+ background-color: rgb(255,255,255);
+ width:70%;
+ height: 90px;
+ display:flex;
+ position: relative;
+ 
+}
+nav ul .sub_item{
+    display: none;
+}
+
+.nav_item ul{
+    display:flex;
+    position: absolute;
+    top:30%;
+    right: 0;
+    list-style-type: none;
+    /* padding:10px; */
+}
+.nav_item ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:12px;
+    padding:20px;
+    letter-spacing: 1px;
+    color:black;
+}
+.sub_menu{
+    position:relative;
+}
+.sub_menu:hover .sub_item{
+    width:160px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top:270%;
+    left:20px; 
+  
+}
+ 
+.sub_item li{
+   padding:10px 0px;
+}
+.sub_menu .sub_item li a{
+    font-size:12px;
+    font-weight: normal;
+    width:100%;
+}
+.sub_item li:hover a{
+    width: 100%;
+    height: auto;
+}
+.get_free_quote{
+    background-color: rgb(228,115,18);
+     width:150px;
+     height: 90px;
+     position:relative;
+}
+.get_free_quote a{
+    position: absolute;
+    top:40%;
+    left: 10%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    color:white;
+    letter-spacing: 1px;
+}
+.get_free_quote.second a{
+    top:30%;
+    left:10%;
+}
+/* ************* */
+/* navbar-end  */
+/* *********** */
+
+/* -------------------------- */
+/* about main heading section */
+/* ------------------------- */
+.heading_content{
+    position:absolute;
+    top:30%;
+    left:5%;
+    color:#fff;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+.heading_content p{
+    font-size: 18px;
+    color:rgb(229,236,240);
+    line-height: 30px;;
+}
+.get_free_quote.second{
+    position:absolute;
+    top:60%;    
+    left:5%;
+    width:160px;
+    height: 50px;
+}
+/* ------------------ */
+/* social icon design */
+/* ----------------- */
+.social_icon{
+    background-color: rgb(10,18,41);
+    width:60px;
+    border:5px solid rgb(10,18,41);
+    position: absolute;
+    right: 0;
+    top:35%;;
+}
+.social_icon_img{
+    width:100%;
+    padding:15px;
+    border-bottom:1px solid rgb(45,51,71);
+}
+.social_icon_img.insta{
+    border-bottom:none;
+}
+/* ---------------------- */
+/* about contact section */
+/* -------------------- */
+.contact_us{
+    height: 43%;
+    width: 75%;;
+    position:absolute;
+    top:75%;
+    right:0;
+    background-image: linear-gradient(to bottom left,rgb(229,114,21),rgb(254,100,95));
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.contact{
+    width:30%;
+    height: 60%;
+    padding:0px;
+    color:#fff;
+
+}
+.contact h5 a{
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    margin-top:20px;
+}
+.contact h5 a:hover{
+   border-bottom:2px solid #fff;
+   padding-bottom:5px;
+}
+.contact img,h5,p{
+    margin-bottom:10px;
+}
+.contact .contact-img{
+    width:28px;
+    height: 30px;
+}
+/* ------------------- */
+/* our specialization */
+/* ------------------ */
+/* our specialization top section */
+.our_specialization,.our_work{
+    width:100%;
+    height: 100vh;
+    margin-top:10%;
+    position:relative;
+}
+
+ /* hover border bottom design */
+
+ /* ################## */
+ /* grouping css */
+ /* ################ */
+.our_specialization a:hover , .our_work a:hover,.team a:hover{
+    border-bottom:2px solid rgb(228,115,18);
+    padding-bottom: 0px;
+}
+
+
+.back_text h1{
+    opacity:1;
+    color:rgb(249,249,252);
+    font-size: 7em;
+    letter-spacing: 17px;
+    z-index: -10;
+    margin-left:10px;
+}
+.our_specialization_upperTextLeft{
+    position:absolute;
+    top:10%;
+    left:4%;
+    font-size: 2em;
+}
+.our_specialization_upperTextRight{
+    position: absolute;
+    top:15%;
+    right:5%;
+    font-weight: 10px;
+    text-transform: uppercase;
+    
+}
+.our_specialization_upperTextRight a{
+    text-decoration: none;
+    color:rgb(145,145,152);
+}
+
+/* our specialization bottom section */
+
+.our_specialization_bottom_section{
+    display: flex;
+    text-align: left;
+    padding-top:3%;
+    width:90%;
+    margin:0 auto;
+}
+.our_specialization_work{
+    padding:0px;
+}
+.our_specialization_bottom_section img{
+    width:60px;
+    height: 60px;
+}
+.our_specialization_work figure,h3,.our-s-para{
+    padding:10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.our_specialization_work p{
+    color:rgb(145,145,152);
+}
+.our_specialization_work a{
+    text-decoration: none;
+    color:rgb(145,145,152);
+    text-transform: uppercase;
+    margin-left:10px ;
+    font-size: 14px;
+    display:inline-block;
+}
+/* ************** */
+/* about_section */
+/* ************* */
+
+.about_section{
+    width:100%;
+    display:flex;
+    /* height: 100vh; */
+    position:relative;
+    /* align-items: center; */
+    
+}
+.about_section_left{
+ width:50%; 
+ padding:50px;  
+}
+.about_section_left img{
+    width:100%;
+}
+.about_section_right{
+    width:50%;
+    padding:70px;
+}
+
+.about_bact_text h1{
+    opacity:1;
+    color:rgb(249,249,252);
+    font-size: 7em;
+    letter-spacing: 17px;
+    z-index: -10;
+    margin-left:10px;
+    position:absolute;
+    top:8%;
+    left:50%;;
+}
+.abut_section_heading{
+    position:absolute;
+    top:20%;
+    left:55%;
+    font-size: 2em;
+    letter-spacing: 5px; 
+}
+.about_section_para {
+    margin-top:100px;
+    font-size:18px;
+    line-height: 27px;
+    color:rgb(145,145,152);
+}
+.about_section a{
+    text-decoration: none;
+    color:rgb(145,145,152);
+    display: inline-block;
+    margin-top:35px;
+    font-size:14px;
+}
+.about_section a:hover{
+    border-bottom:2px solid rgb(228,115,18);
+    padding-bottom: 0px;
+  
+}
+
+/* ************* */
+/* experience section */
+/* *************** */
+
+.expirience{
+    width:100%;
+    display:flex;
+    justify-content: left;
+    padding:50px;
+    /* margin-top:100px; */
+}
+.expirince_sec{
+    width:20%;
+    margin-right: 12%;
+}
+.expirince_sec h1{
+    color: rgb(228,115,18);
+    font-size:3.5em;
+    font-weight: 10px;
+    padding-bottom:10px;
+}
+.expirince_sec p{
+     color:rgb(145,145,152);
+}
+/* ***************** */
+/* our work section */
+/* **************** */
+.our_work{
+    background-color: rgb(247,248,252);
+}
+.our_work .back_text h1{
+    color:lightgray;
+    opacity:0.1;
+}
+
+/* our work images style */
+.our_work_img_div{
+    padding-top:5%;
+    background-color: rgb(247,248,252);
+    position:relative;
+}
+.our-work-image{
+    width:30%;
+    height: 365px;
+    float:left;
+    margin:20px;
+    background-image:url("./images/our_work_1.jpg");
+    
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.our-work-image#img2{
+    background-image: url("./images/our_work_2.jpg");
+}
+.our-work-image#img3{
+    background-image: url("./images/our_work_3.jpg");
+}
+.our-work-image#img4{
+    background-image: url("./images/our_work_4.jpg");
+}
+.our-work-image#img5{
+    background-image: url("./images/our_work_5.jpg");
+}
+.our-work-image#img6{
+    background-image: url("./images/our_work_6.jpg");
+}
+
+
+.overlay{
+    height: 100%;
+    width:100%;
+    opacity: 0;
+    background-color:black;
+    z-index: 1;
+
+    position:absolute;
+}
+.our-work-image:hover .overlay{
+    opacity: 0.2;
+}
+.our-work-image:hover .circle{
+    display: block;
+}
+.circle{
+    height: 90px;
+    width: 90px;
+    background-image: linear-gradient(to bottom left,rgb(229,114,21),rgb(254,100,95));
+    opacity:1 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+.circle-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:20px;
+    color:#fff;
+}
+/* ***************************** */
+/* lets makes together section */
+/* *************************** */
+.lets-build{
+    margin-top:100vh;
+    position:relative;
+    height: 60vh;
+    background-image:url("./images/banner-2.jpg");
+    background-size: cover;
+    background-attachment:fixed, scroll;
+    position:relative;
+    
+}
+.overlay-effect{
+    height: 100%;
+    width:100%;
+    position:absolute;
+    background-image:linear-gradient(to  right,rgb(229,114,21),rgb(254,100,95)); 
+    opacity:0.9;
+}
+.upside-overlay{
+    width:100%;
+    height: 100%;
+    padding:10%;
+    color:#fff;
+    position: absolute;
+    text-align: center;
+}
+.upside-overlay h1{
+    font-size:2.5em;
+    letter-spacing: 2px;
+}
+.upside-overlay p{
+    color: rgba(225,225,225,0.698);
+    font-size:20px;
+    padding:10px;
+}
+.upside-overlay a{
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    padding-top:20px;
+    padding-bottom:2px;
+    font-size:13px;
+}
+.upside-overlay a:hover{
+    border-bottom:2px solid #fff;
+}
+/* ******************* */
+/* team section style */
+/* ***************** */
+.team{
+    height: 500px;
+    width:100%;
+    background-color:rgb(247,248,252);
+    position:relative;
+    padding-top:90px;    
+}
+.team .back_text h1{
+    letter-spacing: 25px;
+    color:rgb(243,244,247);
+    
+} 
+.team .our_specialization_upperTextLeft h1{
+    letter-spacing: 1px;
+    margin-top:110px;
+   
+}
+.team a{ 
+    display:inline-block;
+    margin-top:110px;
+} 
+
+/* professional style */
+.professionals{
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+}
+.professional{
+    height: 400px;
+    width:260px;
+    position:relative; 
+}
+.team-photo{
+    height: 75%;
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg");
+    background-size: cover;;
+}
+.team-photo#photo-2{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg");
+}
+.team-photo#photo-3{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg");
+}
+.team-photo#photo-4{
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg");
+}
+
+
+
+.team-member-name, .about-team-member{
+    padding-top:15px;
+    padding-left:15px;
+}
+.team-member-name{
+    letter-spacing: 1px;;
+}
+.about-team-member{
+    color:rgb(189,195,216);
+}
+.professionl-social-icon{
+    width:60px;
+    height: 170px;
+    background-color:rgb(228,115,18);
+    border:5px solid rgb(228,115,18);
+    position:absolute;
+    right: 0;
+    bottom:0;
+}
+.professionl-social-icon img{
+    width:50px;
+    padding:17px;
+    border-bottom:0.2px solid rgb(247,151,121);
+}
+/* *************************** */
+/* testimonial-section design */
+/* ************************** */
+.testimonials{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(247,248,252);
+    /* margin-top:15%; */
+    /* padding-top:15%; */
+    position:relative;
+    /* z-index: -2; */
+    display: flex;
+    /* width:50%; */
+   
+}
+.testim-margin{
+    margin-top:25%;
+    background-color: gray;
+}
+.testimonials .back_text h1{
+    color:rgb(243,244,247);
+    margin-top:20%;
+    /* background-color: blue; */
+}
+.testimonials .our_specialization_upperTextLeft h1{
+    margin-top:50%;
+}
+.testimonial-left{
+    width:50vw;
+    /* background-color: aqua; */
+}
+.testim-para{
+   margin:20px 0px 0px 50px;
+    /* border:1px solid black; */
+    line-height: 25px;
+    color:rgb(145,145,152);
+}
+.testimonial-left a{
+    text-decoration: none;
+    display: inline-block;
+    margin:35px 0px 0px 45px;
+    color:rgb(145,145,152);
+    font-size: 14px;
+}
+.testimonial-left a:hover{
+    border-bottom:2px solid rgb(228,115,18);
+}
+.testimonial-right{
+    width:50%;
+    position:relative;
+    /* background-color: red; */
+    /* padding:20px; */
+}
+.tetim-content{
+    height: 260px;
+    width:300px;
+    background-color: #fff;
+    text-align: center;
+    margin-top:50px;
+    padding:50px 30px 30px 30px;
+    line-height: 25px;
+    position:absolute;
+    color:rgb(145,145,152);
+   
+}
+.tetim-content .name{
+    color:black;
+}
+.tetim-content#testim-1{
+    position: absolute;
+    top:50%;
+    
+}
+.tetim-content#testim-2{
+    position:absolute;
+    top:8%;
+    left:50%;
+}
+.tetim-content#testim-3{
+    position:absolute;
+    top:60%;
+    left:50%;
+}
+
+.testim-circle{
+    height: 60px;
+    width:60px;
+    background-image:linear-gradient(to  right,rgb(229,114,21),rgb(254,100,95)); 
+    border-radius: 50%;
+    position:absolute;
+    top:-10%;
+    left:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.testim-circle-inner{
+    height: 20px;
+    width:20px;
+    padding-top:12px;
+    color:#fff;
+    font-size: 30px;
+}  
+/* ************* */
+/* blog section */
+/* ************ */
+.blog{
+    position: relative;
+    margin-top:10%;
+    height: 100vh;
+}
+.blog-top .back_text h1{
+   color:rgb(243,244,247);
+   /* color:blue; */
+}
+.blog .our_specialization_upperTextLeft{
+    position:absolute;
+    top:10%;
+    letter-spacing: 1px;
+}
+
+.blog .our_specialization_upperTextRight a:hover{
+    border-bottom: 2px solid rgb(228,115,18);;
+}
+/* ******************* */
+/* blog-section bottom style */
+/* ***************** */
+.blog-bottom{
+    width:100%;
+    height: 80vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blog-content-container{
+    width:30%;
+    height: 90%;
+    /* background-color: blue; */
+    position:relative;
+    cursor: pointer;
+    /* display: flex; */
+}
+.blog-image{
+    height: 60%;
+    /* background-color: yellow; */
+    background-image: url("./images/latest_news1.jpg");
+    background-size: cover;
+}
+.blog-image#blog-image2{
+    background-image: url("./images/latest_news2.jpg");
+}
+.blog-image#blog-image3{
+    background-image: url("./images/latest_news3.jpg");
+}
+.blog-content{
+    height: 40%;
+    /* background-color: orange; */
+    background-image:linear-gradient(to  right,rgb(229,114,21),rgb(254,100,95)); 
+    color:#fff;
+    padding:30px;
+}
+.blog-para{
+    padding-top:10px;
+    color:rgb(247,195,192)
+    ;
+}
+.blog-readmore a{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+}
+.blog-readmore a:hover{
+    border-bottom:2px solid #fff;
+}
+.blog-date{
+    height: 110px;
+    width:70px;
+    background-color: red;
+    position:absolute;
+    top:0;
+    right: 0;
+    /* text-align: center; */
+    /* padding:10px; */
+}
+.blog-date-top{
+    height: 70%;
+    background-color: rgb(241,107,56);
+    /* padding-top:10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.blog-date-bottom{
+    height: 30%;
+    background-color: #fff;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    letter-spacing: 1px;
+}
+/* simple margin section */
+.margin{
+    height: 15%;
+    width:100%;
+    margin-top:15%;
+}
+/* ************** */
+/* footer design */
+/* ************* */
+footer{
+    height: 100vh;
+    width:85vw;
+    background-color: rgb(10,18,41);
+    margin:0 auto;
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-upside-content{
+    height: 180px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(to  right,rgb(229,114,21),rgb(254,100,95)); 
+    color:#fff;
+    letter-spacing: 2px;
+    padding:60px;
+    z-index: -2;
+}
+
+.footer-upside-content a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    
+}
+
+.about-text{
+    color:#fff;
+    width:25%;
+    
+    position:relative;
+    z-index: 1;
+}
+.line{
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    right: auto;
+    bottom: auto;
+    width: 60%;
+    height: 1px;
+    background-color: #ff6361;
+}
+.line#line1{
+    left:40%;
+}
+.line#line2{
+    left:33%;
+}
+.line#line3{
+    left:33%;
+}
+/* ablut nukk */
+.about-nukk{
+   
+    width:30%;
+    position:relative;
+}
+.about-text{
+    width:100%;
+    margin-top:50px;
+    padding:20px;
+}
+.about-para{
+    color:#fff;
+    padding:0px 40px 0px 40px;
+}
+.about-link a{
+    text-decoration: none;
+    color:#FFF;
+    margin:100px 0px 0px 40px;
+}
+.about-link a:hover ,.nukk-link a:hover{
+    border-bottom:2px solid #fff;
+}
+/* nukk services */
+.nukk-services{
+   
+    width:30%;
+    
+}
+.nukk-link {
+    padding:5px ;
+    margin-left:30px;
+    
+}
+.nukk-link a{
+    text-decoration: none;
+    color:#FFF;
+}
+.contact-nukk{
+   
+    width:30%;
+    
+}
+
+/* contact nukk*/
+.contact-heading{
+    display: flex;
+    align-items: center;
+    padding:10px 40px 0px 40px;
+    color:#fff;
+}
+.contact-heading img{
+    width:20px;
+    height: 20px;
+}
+.contact-paragraph{
+    margin-left:30px;
+    font-size: 16px;
+    padding:10px 40px 0px 40px;
+    color: rgb(170,180,161);
+}
+.logo.footerlogo{
+    position:absolute;
+    bottom:0;
+    left:50px;
+}
+/* ############### */
+/* end css for pc */
+/* ############# */
+
